@@ -12,7 +12,7 @@ export default async function handler(req, res) {
         const { key } = req.body;
 
         // قائمة المفاتيح المسموح بها فقط
-        const validKeys = ["manager-20954003481-09"];
+        const validKeys = ["HRRH-73828749-%$@72"];
 
         if (validKeys.includes(key)) {
             // إذا وجد المفتاح
